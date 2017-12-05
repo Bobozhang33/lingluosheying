@@ -1,0 +1,79 @@
+body{
+    background: #f2f2f2;
+}
+.title{
+    width: 1200px;
+    height: 150px;
+    background: url("../img/case/title.png") 100px -180px no-repeat;
+}
+.title_pic{
+    text-align: center;
+}
+.title_pic img{
+    width: 1200px;
+    height: 320px;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content_layout{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.content-detail{
+    width: 380px;
+    height: 545px;
+    overflow: hidden;
+    margin-top:10px;
+}
+.content-detail .content-pic{
+    width: 380px;  
+    height: 560px; 
+    transition: margin-top 1s; 
+}
+.content-detail .content-pic .pic_tro {
+    color: #D9CABF;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.content-detail .content-pic .pic_tro span{
+    display: inline-block;
+}
+.content-detail .content-pic .pic_tro span:nth-child(2){
+    margin-left: 230px;
+}
+.content-detail .content-pic p:last-child{
+    font-size: 13px;
+}
+.content-detail .content-pic:hover{
+    margin-top: -20px;
+    background-color:#FFFFFF; 
+}
+.page{
+    width: 1200px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.page ul{
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.page ul li{
+    float: left;
+    background-color: #E8E8E8;
+    width: 40px;
+    height: 20px;
+    margin-right: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.page ul li:first-child,.page ul li:last-child{
+    width: 50px;
+}

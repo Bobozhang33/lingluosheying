@@ -1,0 +1,68 @@
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+section p{
+    margin: 40px 0 30px 0;
+}
+hr{
+    margin-bottom: 40px;
+}
+.title{
+    width: 1200px;
+    height: 180px;
+    background: url("../img/art/titles.png") 100px -230px no-repeat;
+    position: relative;
+}
+.title p{
+    width: 1200px;
+    height: 25px;
+    line-height:20px;
+    font-size: 12px;
+    color:#999;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+}
+
+
+.photo_img{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.photo_img .photo_intro{
+    display: block;
+    width: 290px;
+    height: 500px;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+
+}
+.photo_img .photo_intro p{
+    text-align: center;
+    margin-top: 25px;
+}
+.photo_img .photo_intro p strong{
+    color: #333;
+}
+.photo_img .photo_intro p span{
+    display: block;
+    color: #A4ABBE;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.photo_img .photo_intro img {
+    width: 285px;
+    height: 400px;
+}
+.photo_img .photo_intro:hover {
+    background-color: #DC3644;
+    border: 3px solid #DC3644;
+
+}
+.photo_img .photo_intro:hover strong,.photo_img .photo_intro:hover span{
+    color: #fff;
+}
